@@ -1,0 +1,10 @@
+@import '../../../assets/sass/mixins';
+@import '../../../assets/sass/variables';
+
+$wrap: 'the-login';
+
+.#{$wrap} {
+  padding: 20px;
+  background-color: $color-white;
+  @include box-shadow($shadow-box);
+}

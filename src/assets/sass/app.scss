@@ -1,8 +1,8 @@
-@import '../node_modules/bootstrap/scss/bootstrap';
-@import './assets/sass/variables';
-@import './assets/sass/mixins';
-@import './assets/sass/buttons';
-@import './assets/sass/input';
+@import '@/node_modules/bootstrap/scss/bootstrap';
+@import 'variables';
+@import 'mixins';
+@import 'buttons';
+@import 'input';
 
 html, body {
   height: 100%;
